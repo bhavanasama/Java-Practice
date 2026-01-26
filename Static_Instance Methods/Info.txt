@@ -1,0 +1,9 @@
+| Scenario                                        | Example Code                 | Allowed? | Recommended? | Why                           |
+| ----------------------------------------------- | ---------------------------- | -------- | ------------ | ----------------------------- |
+| **Same class – using class name**               | `Scenario4.staticMethod4();` | ✅        | ✅            | Clear, correct, best practice |
+| **Same class – direct call**                    | `staticMethod4();`           | ✅        | ✅            | Compiler resolves to class    |
+| **Same class – using object reference**         | `obj4.staticMethod4();`      | ✅        | ❌            | Misleading, static ≠ object   |
+| **Another class – using class name**            | `Scenario2.staticMethod2();` | ✅        | ✅            | Correct ownership shown       |
+| **Another class – using object reference**      | `obj2.staticMethod2();`      | ✅        | ❌            | Compiles but poor design      |
+| **Another class – direct call (no import)**     | `staticMethod2();`           | ❌        | ❌            | Compiler can’t resolve        |
+| **Another class – direct call (static import)** | `staticMethod2();`           | ✅        | ⚠️           | OK, but reduces clarity       |
