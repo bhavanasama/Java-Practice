@@ -18,4 +18,5 @@ public class Variables{
         System.out.println("Double: " + myDoubleNum);
         System.out.println("Byte: " + myByte);
     }
+
 }
