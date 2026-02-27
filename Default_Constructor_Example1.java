@@ -11,4 +11,5 @@ public class Default_Constructor_Example1 {
         Default_Constructor_Example1 obj = new Default_Constructor_Example1();
         obj.display();
     }
+
 }
