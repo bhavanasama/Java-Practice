@@ -20,7 +20,7 @@ public class Operators {
         System.out.println("c after *= : " + c);
         c /= b;                                            // /=
         System.out.println("c after /= : " + c);
-        c %= b;                                            // %=
+        c %= b;                                           // %=
         System.out.println("c after %= : " + c);
 
         // Comparison Operators
@@ -75,5 +75,6 @@ public class Operators {
 
     }
 }
+
 
 
