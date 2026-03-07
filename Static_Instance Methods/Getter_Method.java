@@ -15,3 +15,4 @@ public class Getter_Method {
         System.out.println(obj.getCollageDetails());    // Accessing private method within the same class using getter method(the method which accesses private members is called getter method)
     }
 }
+
